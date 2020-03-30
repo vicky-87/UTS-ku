@@ -4,7 +4,7 @@ import com.example.uts_recyclerview.model.TokohData;
 
 import java.util.ArrayList;
 
-public class Data {
+public class DataActivity {
     public static String[][] data = new String[][] {
             {"Bill Gates", "Founder Microsoft", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bill_Gates_in_WEF%2C_2007.jpg/220px-Bill_Gates_in_WEF%2C_2007.jpg",
                     "seorang tokoh bisnis, investor, filantropis, penulis asal Amerika Serikat, serta mantan CEO yang saat ini menjabat sebagai ketua Microsoft, perusahaan perangkat lunak yang ia dirikan bersama Paul Allen. Ia menduduki peringkat tetap di antara orang-orang terkaya di dunia dan menempati peringkat pertama sejak 1995 hingga 2009, tidak termasuk 2008 ketika ia turun ke peringkat tiga."},
