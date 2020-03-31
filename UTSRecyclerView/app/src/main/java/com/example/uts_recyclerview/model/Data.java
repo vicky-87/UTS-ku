@@ -1,12 +1,8 @@
-package com.example.uts_recyclerview;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.uts_recyclerview.model.TokohData;
+package com.example.uts_recyclerview.model;
 
 import java.util.ArrayList;
 
-public class DataActivity extends AppCompatActivity {
+public class Data {
     public static String[][] data = new String[][] {
             {"Bill Gates", "Founder Microsoft", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bill_Gates_in_WEF%2C_2007.jpg/220px-Bill_Gates_in_WEF%2C_2007.jpg",
                     "seorang tokoh bisnis, investor, filantropis, penulis asal Amerika Serikat, serta mantan CEO yang saat ini menjabat sebagai ketua Microsoft, perusahaan perangkat lunak yang ia dirikan bersama Paul Allen. Ia menduduki peringkat tetap di antara orang-orang terkaya di dunia dan menempati peringkat pertama sejak 1995 hingga 2009, tidak termasuk 2008 ketika ia turun ke peringkat tiga."},
@@ -24,11 +20,11 @@ public class DataActivity extends AppCompatActivity {
                     " penemu World Wide Web dan ketua World Wide Web Consortium, yang mengatur perkembangannya. Pada 1980, ketika masih seorang kontraktor bebas di CERN, Berners-Lee mengajukan sebuah proyek yang berbasiskan konsep hiperteks (hypertext) untuk memfasilitasi pembagian dan pembaharuan informasi di antara para peneliti. Dengan bantuan dari Robert Cailliau dia menciptakan sistem prototipe bernama Enquire."}
     };
 
-    public static ArrayList<TokohData> getListTokoh() {
-        TokohData tokoh = null;
-        ArrayList<TokohData> list = new ArrayList<>();
+    public static ArrayList<Tokoh> getListTokoh() {
+        Tokoh tokoh = null;
+        ArrayList<Tokoh> list = new ArrayList<>();
         for(int i=0; i<data.length; i++) {
-            tokoh = new TokohData();
+            tokoh = new Tokoh();
             tokoh.setName(data[i][0]);
             tokoh.setRemarks(data[i][1]);
             tokoh.setPhoto(data[i][2]);

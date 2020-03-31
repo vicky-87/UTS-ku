@@ -1,6 +1,6 @@
 package com.example.uts_recyclerview.model;
 
-public class TokohData {
+public class Tokoh {
     private String name, remarks, desc, photo;
 
     public String getName() {

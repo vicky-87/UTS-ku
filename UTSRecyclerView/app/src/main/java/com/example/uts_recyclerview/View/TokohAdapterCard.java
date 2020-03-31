@@ -12,28 +12,31 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.uts_recyclerview.R;
-import com.example.uts_recyclerview.model.TokohData;
+import com.example.uts_recyclerview.model.Tokoh;
 
 import java.util.ArrayList;
 
+import static com.example.uts_recyclerview.model.Data.getListTokoh;
+
 public class TokohAdapterCard extends RecyclerView.Adapter<TokohAdapterCard.CardViewViewHolder>{
-    private ArrayList<TokohData> listTokoh;
+    private ArrayList<Tokoh> listTokoh;
     private Context context;
 
     public TokohAdapterCard(Context context) {
         this.context = context;
     }
 
-    public ArrayList<TokohData> getListTokoh() {
+    public ArrayList<Tokoh> getListTokoh() {
         return listTokoh;
     }
 
-    public void setListTokoh(ArrayList<TokohData> listTokoh) {
+    public void setListTokoh(ArrayList<Tokoh> listTokoh) {
         this.listTokoh = listTokoh;
     }
 
+    @NonNull
     @Override
-    public CardViewViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public CardViewViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_list_card, parent, false);
         CardViewViewHolder viewHolder = new CardViewViewHolder(view);
         return viewHolder;
@@ -41,7 +44,7 @@ public class TokohAdapterCard extends RecyclerView.Adapter<TokohAdapterCard.Card
 
     @Override
     public void onBindViewHolder(@NonNull TokohAdapterCard.CardViewViewHolder holder, int position) {
-        TokohData p = getListTokoh().get(position);
+        Tokoh p = getListTokoh().get(position);
 
         Glide.with(context)
                 .load(p.getPhoto())
@@ -60,6 +63,7 @@ public class TokohAdapterCard extends RecyclerView.Adapter<TokohAdapterCard.Card
     public class CardViewViewHolder extends RecyclerView.ViewHolder {
         ImageView tPhoto;
         TextView tName, tRemarks;
+
         public CardViewViewHolder(@NonNull View itemView) {
             super(itemView);
             tPhoto = (ImageView)itemView.findViewById(R.id.item_img);
