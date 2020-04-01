@@ -8,7 +8,7 @@ public class DataFilm {
             {"JANGKRIK BOSS (2018)",
                     "Film Comedy",
                     "Menceritakan kembali film warkop pada zaman tahun 90 an yang diperani oleh Indro, Kasino, dan Dono.",
-                    "https://upload.wikimedia.org/wikipedia/id/1/10/What%27s_Wrong_with_Secretary_Kim.jpg",
+                    "/https://images.app.goo.gl/RVGvfEhxNC15dLLa7",
                     "Tora Sudiro, Indro Warkop, "},
 
     };
