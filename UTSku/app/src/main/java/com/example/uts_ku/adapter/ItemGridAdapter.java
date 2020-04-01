@@ -21,9 +21,8 @@ public class ItemGridAdapter extends RecyclerView.Adapter<ItemGridAdapter.GridVi
     private Context context;
     private ArrayList<Film> listFilm;
 
-    public ItemGridAdapter(Context context, ArrayList<Film> listFilm) {
+    public ItemGridAdapter(Context context) {
         this.context = context;
-        this.listFilm = listFilm;
     }
 
     public ArrayList<Film> getListFilm() {
@@ -42,7 +41,7 @@ public class ItemGridAdapter extends RecyclerView.Adapter<ItemGridAdapter.GridVi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GridViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull GridViewHolder holder, final int position) {
         Glide.with(context).load(getListFilm().get(position).getFoto()).into(holder.imgGrid);
         holder.imgGrid.setOnClickListener(new View.OnClickListener() {
             @Override

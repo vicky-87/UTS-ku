@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardCornerRadius="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_marginBottom="4dp"
+        android:layout_height="220dp"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/item_img"/>
+
+    <TextView
+        android:id="@+id/item_tahun"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/item_img"
+        android:layout_below="@id/item_name"/>
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/item_img"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

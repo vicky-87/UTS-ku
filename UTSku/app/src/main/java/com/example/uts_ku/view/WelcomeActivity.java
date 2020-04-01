@@ -11,7 +11,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.uts_ku.R;
+import com.example.uts_ku.adapter.ItemCardViewAdapter;
 import com.example.uts_ku.adapter.ItemGridAdapter;
+import com.example.uts_ku.adapter.ItemListAdapter;
 import com.example.uts_ku.model.DataFilm;
 import com.example.uts_ku.model.Film;
 
@@ -115,4 +117,5 @@ public class WelcomeActivity extends AppCompatActivity {
         outState.putString(STATE_TITLE, getSupportActionBar().getTitle().toString());
         outState.putParcelableArrayList(STATE_LIST, list);
         outState.putInt(STATE_MODE, mode);
+    }
 }
