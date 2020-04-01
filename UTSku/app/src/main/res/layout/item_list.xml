@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_list"
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        android:src="@color/colorAccent"
+        android:layout_marginEnd="16dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_list">
+
+    <TextView
+        android:id="@+id/tv_nama_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Mountaint Name"/>
+
+    <TextView
+        android:id="@+id/tv_genre_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="8,000 m"/>
+
+</LinearLayout>
+</RelativeLayout>
