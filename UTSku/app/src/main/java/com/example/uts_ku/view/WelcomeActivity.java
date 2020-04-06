@@ -39,7 +39,7 @@ public class WelcomeActivity extends AppCompatActivity {
         list = new ArrayList<>();
 
         if (savedInstanceState == null) {
-            setActionBarTitle("ListView DrakorSyn");
+            setActionBarTitle("Film Bioskop");
             list.addAll(DataFilm.getListData());
             showRecyclerViewList();
             mode = R.id.action_list;

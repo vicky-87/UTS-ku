@@ -21,14 +21,14 @@ public class DetailActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.img_detail);
         TextView nama = findViewById(R.id.tv_nama_detail);
         TextView deskripsi = findViewById(R.id.tv_desc_detail);
-        TextView genre = findViewById(R.id.tv_genre_detail);
+        TextView jenis = findViewById(R.id.tv_genre_detail);
         TextView pemeran = findViewById(R.id.tv_pemeran_detail);
 
         Film bioskop = getIntent().getParcelableExtra(INI_FILM);
 
         Glide.with(this).load(bioskop.getFoto()).into(imageView);
         nama.setText(bioskop.getNama());
-        genre.setText(bioskop.getJenis());
+        jenis.setText(bioskop.getJenis());
         deskripsi.setText(bioskop.getDeskripsi());
         pemeran.setText(bioskop.getPemeran());
     };

@@ -26,13 +26,13 @@
         android:layout_marginBottom="8dp"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:text="Mountaint Name"/>
+        android:text="Title"/>
 
     <TextView
         android:id="@+id/tv_genre_list"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="8,000 m"/>
+        android:text="jenisnya"/>
 
 </LinearLayout>
 </RelativeLayout>
