@@ -49,15 +49,28 @@ public class DataFilm {
                             "Widjanarko, Zummiyanuran Habibi"},
 
             {"Bumi Manusia (2019)",
-                    "Film Drama",
-                    "Bumi Manusia merupakan film drama biografi sejarah Indonesia tahun 2019 yang disutradarai Hanung Bramantyo dan ditulis Salman Aristo. " +
-                            "Film ini dialihwahanakan dari novel berjudul sama karya Pramoedya Ananta Toer. Film ini dibintangi Iqbaal Ramadhan, Mawar Eva de Jongh, dan Sha Ine Febriyanti. " +
-                            "Film ini menceritakan kegamangan Minke antara kemajuan Eropa dan perjuangan membela tanah airnya serta hubungannya dengan Annelies..",
-                    "https://upload.wikimedia.org/wikipedia/id/5/51/Bumi_Manusia_poster.jpg",
-                    "Iqbaal Ramadhan, Mawar Eva de Jongh, Sha Ine Febriyanti\n" +
-                            "Ayu Laksmi, Donny Damara, Bryan Domani\n" +
-                            "Giorgino Abraham" +
-                            "Jerome Kurniawan"},
+            "Film Drama",
+            "Bumi Manusia merupakan film drama biografi sejarah Indonesia tahun 2019 yang disutradarai Hanung Bramantyo dan ditulis Salman Aristo. " +
+                    "Film ini dialihwahanakan dari novel berjudul sama karya Pramoedya Ananta Toer. Film ini dibintangi Iqbaal Ramadhan, Mawar Eva de Jongh, dan Sha Ine Febriyanti. " +
+                    "Film ini menceritakan kegamangan Minke antara kemajuan Eropa dan perjuangan membela tanah airnya serta hubungannya dengan Annelies..",
+            "https://upload.wikimedia.org/wikipedia/id/5/51/Bumi_Manusia_poster.jpg",
+            "Iqbaal Ramadhan, Mawar Eva de Jongh,\n"+
+                    "Sha Ine Febriyanti, Ayu Laksmi,\n"+
+                    "Donny Damara, Bryan Domani\n"+
+                    "Giorgino Abraham, Jerome Kurniawan"},
+
+            {"Imperfect (2019)",
+                    "Film Comedy",
+                    "Imperfect: Karier, Cinta & Timbangan adalah film komedi percintaan Indonesia tahun 2019 yang disutradarai oleh Ernest Prakasa dan dialihwahanakan dari novel Imperfect: A Journey to Self-Acceptance karya Meira Anastasia, istri Ernest sendiri. " +
+                            "Film ini dibintangi Jessica Mila dan Reza Rahadian. " +
+                            "Film ini ditayangkan pada 19 Desember 2019. Film ini mendapatkan sambutan yang positif baik dari kalangan penonton maupun pengkritik. .",
+                    "https://upload.wikimedia.org/wikipedia/id/9/98/Imperfect_Karier%2C_Cinta_%26_Timbangan_poster.jpeg",
+                    "Jessica Mila, Reza Rahadian,\n" +
+                            "Yasmin Napper, Karina Suwandi,\n" +
+                            "Dion Wiyoko, Kiki Narendra,\n" +
+                            "Shareefa Daanish, Dewi Irawan,\n" +
+                            "Ernest Prakasa, Clara Bernadeth,\n" +
+                            "Boy William"},
 
             {"Aquaman (2018)",
             "Film Action",
@@ -89,8 +102,8 @@ public class DataFilm {
                             "Film ini berdasarkan pada cerita karakter pahlawan super Indonesia tahun 1969 Gundala yang dibuat oleh Harya Suraminata. Karakter utamanya sendiri diperankan oleh Abimana Aryasatya. " +
                             "Film ini akan menjadi awal dari Jagat Sinema Bumilangit (JSB). .",
                     "https://upload.wikimedia.org/wikipedia/id/d/de/Gundala_%282019%29_poster.jpg",
-                    "Abimana Aryasatya, Tara Basro, Bront Palarae, Ario Bayu\n" +
-                            "Rio Dewanto, Marissa Anita"},
+                    "Abimana Aryasatya, Tara Basro, Bront Palarae,"+"\n"+
+                            "Ario Bayu, Rio Dewanto, Marissa Anita"},
 
             {"The Call of the Wild (2020)",
                     "Film Action",
